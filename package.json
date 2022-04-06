@@ -1,0 +1,49 @@
+{
+  "name": "svelte-locomotive-scroll",
+  "version": "0.0.5",
+  "description": "A locomotive-scroll Svelte wrapper",
+  "author": "Jason <jasonxandrewth@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "svelte",
+    "locomotive-scroll",
+    "smooth-scroll",
+    "typescript",
+    "sveltekit"
+  ],
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "@types/lodash.debounce": "^4.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "locomotive-scroll": "^4.1.4",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.0",
+    "sass": "^1.49.10",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.10.1",
+    "svelte2tsx": "^0.5.6",
+    "tslib": "^2.3.1",
+    "typescript": "~4.6.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "imagesloaded": "^5.0.0",
+    "lodash.debounce": "^4.0.8"
+  },
+  "peerDependencies": {
+    "locomotive-scroll": "^4.1.1",
+    "svelte": "^3.44.0"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./LocomotiveScrollProvider.svelte": "./LocomotiveScrollProvider.svelte",
+    ".": "./index.js"
+  },
+  "svelte": "./index.js"
+}
